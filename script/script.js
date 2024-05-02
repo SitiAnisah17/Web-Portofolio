@@ -1,8 +1,8 @@
-const hamburger = document.getElementById('hamburger'); 
+const header-nav = document.getElementById('header'); 
 const menu = document.querySelector('.menu'); 
 
-hamburger.addEventListener('click', function () { 
-	const hamIcon = this.querySelector('.hamburger-icon'); 
+header-nav.addEventListener('click', function () { 
+	const hamIcon = this.querySelector('.header-nav-icon'); 
 	const crossIcon = this.querySelector('.cross-icon'); 
 	if (hamIcon.style.display === "none") { 
 		hamIcon.style.display = "inline-block"
